@@ -1,0 +1,81 @@
+body {
+    color: #840000;
+    background: #fff;
+}
+#wrapper {
+    background: url(../images/bg-m.jpg) top repeat-y;
+}
+a:link {
+    color: #073372;
+}
+a:visited {
+    color: #0b0b51;
+}
+a:hover {
+    color: #fc1f1f;
+}
+a:active {
+    color: white;
+    background: #840000;
+}
+
+/*Header*/
+#header {
+    background-image: url(../images/bg-t.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+#header ul {
+    background-color: #073372;
+    border-right: 20px solid #0b0b51;
+}
+#header ul li a {
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+#header ul li a:hover {
+    color: #0b0b51;
+    background-color: #fefefe;
+    border-left: 1px solid #fc1f1f;
+}
+#title {
+    color: #fff;
+    background: #d32a2a url(../images/title-w.gif) 10px 10px no-repeat;
+    border-right: 20px solid #a83535;
+}
+
+/*Content Text*/
+#middle {
+    border-right: 20px solid #0b0b51;
+    border-left: 120px solid #073372;
+}
+#middle h1 {
+    color: #a83535;
+    background: url(../images/h1-index.jpg) no-repeat;
+}
+
+#menu li a {
+    color: #fff;
+}
+#menu li a:hover {
+    background-color: #0b0b51;
+    border-right: 3px solid #a83535;
+    border-left: 3px solid #a83535;
+}
+body#news #news-menu,
+body#funding #funding-menu,
+body#facilities #facilities-menu,
+body#booking #booking-menu,
+body#capel #capel-menu {
+    background-color: #840000;
+}
+
+#copyright {
+    color: #0b0b51;
+}
+
+/*Dealing with photos within the page*/
+img {
+    border: solid 1px #840000;
+}

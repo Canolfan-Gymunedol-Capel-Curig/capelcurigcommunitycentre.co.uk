@@ -1,0 +1,289 @@
+body {
+    font-size: 80%;
+    font-family: "Century Gothic", helvetica, arial;
+    line-height: 1.5em;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    text-align: left;
+    top: 0;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: underline;
+    font-weight: normal;
+}
+a:active {
+    color: white;
+    font-weight: bold;
+}
+.clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+.prop {
+    width: 1px;
+    height: 700px;
+    float: right;
+}
+
+/*Header*/
+#header {
+    position: absolute;
+    top: 0;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+#header ul {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 660px;
+    height: 25px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#header ul li {
+    float: right;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+    font-weight: normal;
+    display: block;
+}
+#header ul li a {
+    padding: 0px 10px 0px 10px;
+}
+#header ul li a:visited {
+    text-decoration: none;
+}
+#title {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 640px;
+    padding: 20px;
+    margin: 0;
+}
+#title h1 {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-size: 3em;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+}
+#title h1 span {
+    visibility: hidden;
+}
+#address {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    text-align: right;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Content Text*/
+#middle-wrapper {
+    position: relative;
+    top: 190px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg-m.jpg) repeat-y 50% top;
+}
+#middle {
+    position: relative;
+    top: 0;
+    left: 70px;
+    width: 540px;
+}
+#middle-content {
+    position: relative;
+    top: 0px;
+    left: 25px;
+    width: 490px;
+    padding: 20px 0 0 0;
+}
+#middle h1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 490px;
+    height: 140px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: normal;
+}
+/* Headers for the different pages*/
+body#index #middle h1 {
+    background: url(../images/h1-index.jpg) no-repeat;
+}
+body#contact #middle h1 {
+    background: url(../images/h1-contact.jpg) no-repeat;
+}
+body#location #middle h1 {
+    background: url(../images/h1-location.jpg) no-repeat;
+}
+body#news #middle h1 {
+    background: url(../images/h1-news.jpg) no-repeat;
+}
+body#funding #middle h1 {
+    background: url(../images/h1-funding.jpg) no-repeat;
+}
+body#facilities #middle h1 {
+    background: url(../images/h1-facilities.jpg) no-repeat;
+}
+body#booking #middle h1 {
+    background: url(../images/h1-booking.jpg) no-repeat;
+}
+body#capel #middle h1 {
+    background: url(../images/h1-capel.jpg) no-repeat;
+}
+
+#left-col {
+    float: left;
+    width: 230px;
+}
+#right-col {
+    float: right;
+    width: 230px;
+}
+#wide-col {
+    float: left;
+    width: 490px;
+}
+.blue {
+    background: #2c2c60;
+    color: white;
+    font-weight: bold;
+}
+
+/*Menu Bar*/
+#menu {
+    position: absolute;
+    top: 0;
+    left: -120px;
+    border-top: 20px solid white;
+    width: 120px;
+}
+#menu ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+#menu ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+#menu ul li a {
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 2em;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover {
+    font-weight: bold;
+    padding-left: 5px;
+    display: block;
+}
+body#funding #funding-menu,
+body#facilities #facilities-menu,
+body#booking #booking-menu,
+body#capel #capel-menu {
+    display: block;
+}
+
+#menu li #language {
+    font-family: Verdana;
+    font-size: 1.4em;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+/*Footer*/
+#footer {
+    position: relative;
+    top: 190px;
+    left: 0;
+    width: 800px;
+    height: 70px;
+    background: url(../images/bg-b.jpg) no-repeat 2px 15px;
+}
+#copyright {
+    position: relative;
+    top: 20px;
+    margin: 0px auto;
+    width: 700px;
+    font-size: 0.8em;
+    line-height: 1em;
+}
+#copyright span {
+    float: right;
+}
+#filler {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 15px;
+    background: url(../images/bg-m.jpg) top repeat-y;
+}
+
+/*Dealing with photos within the page*/
+#right-col img {
+    position: relative;
+    top: 0;
+    margin: 7px 7px 7px 0px;
+    padding: 0px;
+}
+#left-col img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 7px 7px 7px 0px;
+    padding: 0px;
+}
+#wide-col img {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 0;
+}
+a#map {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 40px 0;
+}
+a:visited#map {
+    color: white;
+    text-decoration: none;
+}
+#map img {
+    border: 0px;
+}
