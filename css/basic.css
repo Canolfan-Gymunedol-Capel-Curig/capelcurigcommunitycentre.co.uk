@@ -281,3 +281,12 @@ a:visited#map {
 #map img {
     border: 0px;
 }
+#donate-button-container {
+    border: none;
+    text-align: center;
+}
+#donate-button {
+    border: none;
+    text-align: center;
+    margin-top: 5pt;
+}
