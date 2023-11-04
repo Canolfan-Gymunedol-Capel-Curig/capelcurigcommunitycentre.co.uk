@@ -137,9 +137,6 @@ a:active {
 body#index #middle h1 {
     background: url(../images/h1-index.jpg) no-repeat;
 }
-body#contact #middle h1 {
-    background: url(../images/h1-contact.jpg) no-repeat;
-}
 body#location #middle h1 {
     background: url(../images/h1-location.jpg) no-repeat;
 }
