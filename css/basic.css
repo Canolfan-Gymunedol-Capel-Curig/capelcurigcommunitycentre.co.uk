@@ -137,6 +137,9 @@ a:active {
 body#index #middle h1 {
     background: url(../images/h1-index.jpg) no-repeat;
 }
+body#agm #middle h1 {
+    background: url(../images/h1-index.jpg) no-repeat;
+}
 body#location #middle h1 {
     background: url(../images/h1-location.jpg) no-repeat;
 }
@@ -210,6 +213,7 @@ body#capel #middle h1 {
 body#funding #funding-menu,
 body#facilities #facilities-menu,
 body#booking #booking-menu,
+body#agm #agm-menu,
 body#capel #capel-menu {
     display: block;
 }

@@ -68,6 +68,8 @@ body#funding #funding-menu,
 body#location #location-menu,
 body#facilities #facilities-menu,
 body#booking #booking-menu,
+body#agm #agm-menu,
+body#index #about-menu,
 body#capel #capel-menu {
     background-color: #2c2c60;
 }
