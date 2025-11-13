@@ -1,68 +1,68 @@
 body {
-    color: #073372;
-    background: #fff;
+  color: #073372;
+  background: #fff;
 }
 #wrapper {
-    background: url(../images/bg-m.jpg) top repeat-y;
+  background: url(../images/bg-m.jpg) top repeat-y;
 }
 a:link {
-    color: #a83535;
+  color: #a83535;
 }
 a:visited {
-    color: #a83535;
+  color: #a83535;
 }
 a:hover {
-    color: #fc1f1f;
+  color: #fc1f1f;
 }
 a:active {
-    color: white;
-    background: #073372;
+  color: white;
+  background: #073372;
 }
 
 /*Header*/
 #header {
-    background: url(../images/bg-t.jpg) top center no-repeat;
+  background: url(../images/bg-t.jpg) top center no-repeat;
 }
 #header ul {
-    background-color: #d32a2a;
-    border-right: 20px solid #a83535;
+  background-color: #d32a2a;
+  border-right: 20px solid #a83535;
 }
 #header ul li a {
-    color: #000038;
-    border-left: 1px solid #000038;
+  color: #000038;
+  border-left: 1px solid #000038;
 }
 #header ul li a:hover {
-    color: #840000;
-    background-color: #fefefe;
-    border-left: 1px solid #000038;
+  color: #840000;
+  background-color: #fefefe;
+  border-left: 1px solid #000038;
 }
 #header ul li a:visited {
-    color: #000038;
-    border-left: 1px solid #000038;
+  color: #000038;
+  border-left: 1px solid #000038;
 }
 #title {
-    color: #fff;
-    background: #2c2c60 url(../images/title-e.jpg) 10px 10px no-repeat;
-    border-right: 20px solid #0b0b51;
+  color: #fff;
+  background: #2c2c60 url(../images/title-e.jpg) 10px 10px no-repeat;
+  border-right: 20px solid #0b0b51;
 }
 
 /*Content Text*/
 #middle {
-    border-right: 20px solid #a83535;
-    border-left: 120px solid #d32a2a;
+  border-right: 20px solid #a83535;
+  border-left: 120px solid #d32a2a;
 }
 #middle h1 {
-    color: #000038;
+  color: #000038;
 }
 
 /*Menu Bar*/
 #menu ul li a {
-    color: #fff;
+  color: #fff;
 }
 #menu ul li a:hover {
-    background-color: #a83535;
-    border-right: 3px solid #000038;
-    border-left: 3px solid #000038;
+  background-color: #a83535;
+  border-right: 3px solid #000038;
+  border-left: 3px solid #000038;
 }
 body#funding #funding-menu,
 body#location #location-menu,
@@ -71,14 +71,14 @@ body#booking #booking-menu,
 body#agm #agm-menu,
 body#index #about-menu,
 body#capel #capel-menu {
-    background-color: #2c2c60;
+  background-color: #2c2c60;
 }
 
 #copyright {
-    color: #840000;
+  color: #840000;
 }
 
 /*Dealing with photos within the page*/
 img {
-    border: solid 1px #000038;
+  border: solid 1px #000038;
 }
