@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #wrapper {
   text-align: left;
   top: 0;
@@ -14,23 +15,28 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
 a:link {
   font-weight: bold;
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: underline;
   font-weight: normal;
 }
+
 a:active {
   color: white;
   font-weight: bold;
 }
+
 .clear {
   clear: both;
   height: 1px;
   overflow: hidden;
 }
+
 .prop {
   width: 1px;
   height: 700px;
@@ -46,6 +52,7 @@ a:active {
   margin: 0 auto;
   padding: 0px;
 }
+
 #header ul {
   position: absolute;
   top: 50px;
@@ -56,6 +63,7 @@ a:active {
   padding: 0;
   margin: 0;
 }
+
 #header ul li {
   float: right;
   padding: 0;
@@ -64,12 +72,15 @@ a:active {
   font-weight: normal;
   display: block;
 }
+
 #header ul li a {
   padding: 0px 10px 0px 10px;
 }
+
 #header ul li a:visited {
   text-decoration: none;
 }
+
 #title {
   position: absolute;
   top: 70px;
@@ -78,6 +89,7 @@ a:active {
   padding: 20px;
   margin: 0;
 }
+
 #title h1 {
   position: absolute;
   top: 30px;
@@ -87,9 +99,11 @@ a:active {
   padding: 0;
   margin: 0;
 }
+
 #title h1 span {
   visibility: hidden;
 }
+
 #address {
   font-size: 0.9em;
   line-height: 1.2em;
@@ -108,12 +122,14 @@ a:active {
   padding: 0;
   background: url(../images/bg-m.jpg) repeat-y 50% top;
 }
+
 #middle {
   position: relative;
   top: 0;
   left: 70px;
   width: 540px;
 }
+
 #middle-content {
   position: relative;
   top: 0px;
@@ -121,6 +137,7 @@ a:active {
   width: 490px;
   padding: 20px 0 0 0;
 }
+
 #middle h1 {
   position: relative;
   top: 0px;
@@ -133,25 +150,32 @@ a:active {
   line-height: 1em;
   font-weight: normal;
 }
+
 /* Headers for the different pages*/
 body#index #middle h1 {
   background: url(../images/h1-index.jpg) no-repeat;
 }
+
 body#agm #middle h1 {
   background: url(../images/h1-index.jpg) no-repeat;
 }
+
 body#location #middle h1 {
   background: url(../images/h1-location.jpg) no-repeat;
 }
+
 body#funding #middle h1 {
   background: url(../images/h1-funding.jpg) no-repeat;
 }
+
 body#facilities #middle h1 {
   background: url(../images/h1-facilities.jpg) no-repeat;
 }
+
 body#booking #middle h1 {
   background: url(../images/h1-booking.jpg) no-repeat;
 }
+
 body#capel #middle h1 {
   background: url(../images/h1-capel.jpg) no-repeat;
 }
@@ -160,14 +184,17 @@ body#capel #middle h1 {
   float: left;
   width: 230px;
 }
+
 #right-col {
   float: right;
   width: 230px;
 }
+
 #wide-col {
   float: left;
   width: 490px;
 }
+
 .blue {
   background: #2c2c60;
   color: white;
@@ -182,6 +209,7 @@ body#capel #middle h1 {
   border-top: 20px solid white;
   width: 120px;
 }
+
 #menu ul {
   position: relative;
   top: 0;
@@ -190,12 +218,14 @@ body#capel #middle h1 {
   padding: 0;
   margin: 0px;
 }
+
 #menu ul li {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: inline;
 }
+
 #menu ul li a {
   margin: 0;
   padding: 0 0 0 5px;
@@ -205,11 +235,13 @@ body#capel #middle h1 {
   text-decoration: none;
   display: block;
 }
+
 #menu ul li a:hover {
   font-weight: bold;
   padding-left: 5px;
   display: block;
 }
+
 body#funding #funding-menu,
 body#facilities #facilities-menu,
 body#booking #booking-menu,
@@ -224,6 +256,7 @@ body#capel #capel-menu {
   line-height: 1.7em;
   font-weight: bold;
 }
+
 /*Footer*/
 #footer {
   position: relative;
@@ -233,6 +266,7 @@ body#capel #capel-menu {
   height: 70px;
   background: url(../images/bg-b.jpg) no-repeat 2px 15px;
 }
+
 #copyright {
   position: relative;
   top: 20px;
@@ -241,9 +275,11 @@ body#capel #capel-menu {
   font-size: 0.8em;
   line-height: 1em;
 }
+
 #copyright span {
   float: right;
 }
+
 #filler {
   position: relative;
   top: 0;
@@ -260,6 +296,7 @@ body#capel #capel-menu {
   margin: 7px 7px 7px 0px;
   padding: 0px;
 }
+
 #left-col img {
   position: relative;
   top: 0;
@@ -267,28 +304,34 @@ body#capel #capel-menu {
   margin: 7px 7px 7px 0px;
   padding: 0px;
 }
+
 #wide-col img {
   float: left;
   margin: 0 10px 10px 0;
   padding: 0;
 }
+
 a#map {
   color: white;
   text-decoration: none;
   display: block;
   padding: 40px 0;
 }
+
 a:visited#map {
   color: white;
   text-decoration: none;
 }
+
 #map img {
   border: 0px;
 }
+
 #donate-button-container {
   border: none;
   text-align: center;
 }
+
 #donate-button {
   border: none;
   text-align: center;
